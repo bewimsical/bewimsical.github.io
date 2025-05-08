@@ -1,3 +1,6 @@
+
+
+
 ---
 layout: home
 title: Home
@@ -8,22 +11,20 @@ image: /assets/images/main.avif
 main_content: >
   # Hello Friend. Hello World.
 
+  Hi, I’m a Computer Science student at Farmingdale State College and a full-stack developer. I love building apps from the ground up, focusing on intuitive design, clean code, and creativity. I’m proficient in **Java**, **JavaScript**, **Node.js**, **Spring Boot**, **MySQL**, **React**, and more. Programming for me is the perfect blend of creativity and logic.
 
-  **Solum remis procul; poenam, corde?** Te quoque facti agros, querorque,
-  excutis
+  Currently, I’m working on building full-stack applications and diving deeper into game development with Python as a hobby.
 
-  quoque vestigia substricta caelestique posuisset litore: suaque. **Et
-  limine**, et
 
-  nimium nec io diemque vocat spicea et horror licet leto fortuna suis cum.
-  **Lecto viae, quod Naxos tumulos quoque.** Et illo de nati iuvenci oris habet,
-  perdidit parantur! **#Rails #Ruby #Python #HTML #Css #Js #AWS**
 footer: true
 permalink: /
 ---
 ## Hello World
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean consequat porta lorem, non auctor magna aliquet ac. Nam finibus in massa quis molestie. Vestibulum malesuada iaculis consequat. Phasellus sagittis, nisl non semper vestibulum, tellus enim interdum purus, ac pretium magna lectus ac turpis. Phasellus scelerisque hendrerit magna vitae fermentum. Praesent facilisis erat viverra eros tristique, id faucibus eros volutpat. Duis tempus arcu in felis sollicitudin, in sodales leo scelerisque. Nullam dapibus libero eu iaculis rhoncus.
+Hi, I’m a developer studying Computer Science at Farmingdale State College. I love building full-stack applications from the ground up—merging clean structure, intuitive design, and a bit of creativity along the way. I'm comfortable working across the stack and have experience with technologies like Spring Boot, Node.js, MySQL, and Azure.
 
-Nulla sed lorem imperdiet, efficitur velit et, mollis neque. Etiam placerat vehicula diam, a scelerisque diam posuere vel. Sed a convallis elit. Proin sodales, mi sit amet aliquam lobortis, ligula elit tristique justo, sodales placerat diam nunc vitae eros. Etiam maximus mauris eget sem varius, mollis ullamcorper metus porttitor. Aenean at elit sodales, rutrum ex tincidunt, molestie lorem. Donec in ante fermentum, pharetra dolor in, tempus nunc. Vivamus in lacinia lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+Before tech, I studied integrative neuroscience and spent five years teaching chemistry. I’ve always enjoyed breaking down complex ideas and making them easier to understand—that mindset naturally carried over into programming. I also love art and creating things, so for me, coding is the perfect balance of creativity and logic.
+
+In my spare time, I dabble in game development with Python—it’s a fun way to explore new ideas and stay curious. Whether I’m building an app or helping someone write their first line of code, I aim for clarity, intention, and work I can be proud of.
+
 

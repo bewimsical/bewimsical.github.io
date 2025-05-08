@@ -1,39 +1,51 @@
 ---
 layout: default
+title: Skills
+permalink: /skills/
+---
+
+---
+layout: default
+title: Skills
+permalink: /skills/
 ---
 
 <section class="container mx-auto pb-10 pt-20 lg:pt-[90px] lg:pb-20">
-  {% if site.categories.size > 0 %}
-  <div
-    class="flex flex-wrap justify-center border-gray-400 border-y mb-4 md:mb-12"
-  >
-    {% for category in site.categories %} {% assign category_name = category[0]
-    %}
-    <a
-      href="{{site.url}}{{site.baseurl}}/category/{{category_name| replace: ' ', '-'| downcase}}"
-      aria-label="Category {{category_name}} page"
-      class="block font-mulish hover:text-sky-400 p-4 {% if category_name == page.title %}font-black{% endif %}"
-    >
-      {{ category_name | upcase }}
-    </a>
-    {% endfor %}
-  </div>
-  {% endif %} {% assign posts = page.posts | default: site.posts %} {% assign
-  first_post = posts[0] %} {% include post_main.html post=first_post %} {%
-  assign rest_posts = posts | slice: 1, posts.size %} {% if rest_posts.size > 0
-  %}
+  <h1 class="text-3xl md:text-5xl font-bold text-center text-gray-800 mb-10">Skills</h1>
 
-  <hr class="h-px my-12 bg-gray-400 border-0 dark:bg-gray-700" />
-
-  <h1 class="text-2xl md:text-4xl font-bold text-gray-800">
-    {{ site.data[site.active_lang].strings.blog.more_articles | default:
-    site.data['en'].strings.blog.more_articles }}
-  </h1>
-  <div
-    class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-x-12 gap-y-16 py-8 md:py-16"
-  >
-    {% for post in rest_posts %} {% include post_card.html post=post %} {%
-    endfor %}
+  <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-6">
+    <div class="bg-white dark:bg-zinc-800 p-6 rounded-xl shadow-md">
+      <h2 class="text-xl font-semibold mb-2">Java</h2>
+      <p class="text-gray-600 dark:text-gray-300">Proficient in Java, including object-oriented programming and data structures.</p>
+    </div>
+    <div class="bg-white dark:bg-zinc-800 p-6 rounded-xl shadow-md">
+      <h2 class="text-xl font-semibold mb-2">JavaScript</h2>
+      <p class="text-gray-600 dark:text-gray-300">Experienced with JavaScript for building dynamic web applications, including React.</p>
+    </div>
+    <div class="bg-white dark:bg-zinc-800 p-6 rounded-xl shadow-md">
+      <h2 class="text-xl font-semibold mb-2">Node.js</h2>
+      <p class="text-gray-600 dark:text-gray-300">Building server-side applications with Node.js and Express.</p>
+    </div>
+    <div class="bg-white dark:bg-zinc-800 p-6 rounded-xl shadow-md">
+      <h2 class="text-xl font-semibold mb-2">React</h2>
+      <p class="text-gray-600 dark:text-gray-300">Using React to build dynamic, component-based user interfaces.</p>
+    </div>
+    <div class="bg-white dark:bg-zinc-800 p-6 rounded-xl shadow-md">
+      <h2 class="text-xl font-semibold mb-2">MySQL</h2>
+      <p class="text-gray-600 dark:text-gray-300">Working knowledge of MySQL for relational database management.</p>
+    </div>
+    <div class="bg-white dark:bg-zinc-800 p-6 rounded-xl shadow-md">
+      <h2 class="text-xl font-semibold mb-2">MS SQL Server</h2>
+      <p class="text-gray-600 dark:text-gray-300">Experienced with Microsoft SQL Server for enterprise-level database management and querying.</p>
+    </div>
+    <div class="bg-white dark:bg-zinc-800 p-6 rounded-xl shadow-md">
+      <h2 class="text-xl font-semibold mb-2">MongoDB</h2>
+      <p class="text-gray-600 dark:text-gray-300">Proficient with MongoDB for NoSQL database management and document-based storage.</p>
+    </div>
+    <div class="bg-white dark:bg-zinc-800 p-6 rounded-xl shadow-md">
+      <h2 class="text-xl font-semibold mb-2">Python</h2>
+      <p class="text-gray-600 dark:text-gray-300">Using Python for scripting, automation, and game development.</p>
+    </div>
   </div>
-  {% endif%}
 </section>
+
