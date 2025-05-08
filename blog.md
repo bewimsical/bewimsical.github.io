@@ -1,9 +1,9 @@
 ---
 layout: blog
-title: Blog
+title: Skills
 nav: true
 footer: true
-description: This is the Awesome Jekyll Theme blog section.
+description: Skills section.
 ---
 
 
