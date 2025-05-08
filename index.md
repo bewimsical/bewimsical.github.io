@@ -1,13 +1,8 @@
-
-
-
 ---
 layout: home
 title: Home
-permalink: /
-description: >-
-  Especializado en el desarrollo de API RESTs con Ruby on Rails. He participado
-  en diversas etapas del ciclo de desarrollo de aplicaciones.
+
+description: my homepage
 image: /assets/images/profile1.JPG
 main_content: >
   # Hello Friend. Hello World.
