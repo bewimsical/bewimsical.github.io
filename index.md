@@ -3,7 +3,7 @@ layout: home
 title: Home
 
 description: my homepage
-image: /assets/images/profile1.JPG
+image: /assets/images/profile2.jpg
 main_content: >
   # Hello Friend. Hello World.
 
