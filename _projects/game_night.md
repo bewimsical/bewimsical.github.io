@@ -13,6 +13,7 @@ Stack: Java (Spring Boot), MySQL, Azure
 
 You can find it on Github:
 
-- <https://github.com/bewimsical/CSC311_FinalProject>
-- <https://github.com/bewimsical/GameNightServer>
+- [bewimsical/CSC311_FinalProject](https://github.com/bewimsical/CSC311_FinalProject)
+- [bewimsical/GameNightServer](https://github.com/bewimsical/GameNightServer)
+
 

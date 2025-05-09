@@ -17,3 +17,7 @@
 a.gentle-clicked {
   animation: gentle-bounce 0.3s ease-out; /* Shorter, smoother animation */
 }
+
+.object-top{
+  object-position: top;
+}

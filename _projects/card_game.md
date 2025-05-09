@@ -11,5 +11,5 @@ A JavaFX-based implementation of the classic card game "24", where players are g
 
 You can find it on Github:
 
-- <https://github.com/bewimsical/CSC311_Mod3_CardGame24>
+- [bewimsical/CSC311_Mod3_CardGame24](https://github.com/bewimsical/CSC311_Mod3_CardGame24)
 

@@ -11,6 +11,8 @@ tags:
 A responsive web app that uses The Cocktail DB API to help users search for drink recipes by name or ingredient. The app displays detailed instructions, ingredients, and images, offering a fun and interactive way to explore mixology.
 Stack: JavaScript, HTML, CSS, The Cocktail DB API
 
-<https://bewimsicals-cocktail-hour.netlify.app/?#recipe-section>
+
+
+[Live Demo](https://bewimsicals-cocktail-hour.netlify.app/?#recipe-section)
 
 
