@@ -7,7 +7,7 @@ image: /assets/images/profile2.jpg
 main_content: >
   # Hello Friend. Hello World.
 
-  Hi, I’m a Computer Science student at Farmingdale State College and a full-stack developer. I love building apps from the ground up, focusing on intuitive design, clean code, and creativity. I’m proficient in **Java**, **JavaScript**, **Node.js**, **Spring Boot**, **MySQL**, **React**, and more. Programming for me is the perfect blend of creativity and logic.
+  Hi, I’m a Computer Science student at Farmingdale State College and a full-stack developer. I love building apps from the ground up, focusing on intuitive design, clean code, and creativity. I’m proficient in **Java**, **JavaScript**, **Node.js**, **Spring Boot**, **MySQL**, **Python**, and more. Programming for me is the perfect blend of creativity and logic.
 
   Currently, I’m working on building full-stack applications and diving deeper into game development with Python as a hobby.
 
@@ -15,7 +15,7 @@ main_content: >
 footer: true
 permalink: /
 ---
-## Hello World
+## About Me
 
 Hi, I’m a developer studying Computer Science at Farmingdale State College. I love building full-stack applications from the ground up—merging clean structure, intuitive design, and a bit of creativity along the way. I'm comfortable working across the stack and have experience with technologies like Spring Boot, Node.js, MySQL, and Azure.
 

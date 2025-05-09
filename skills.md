@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: skills
 title: Skills
 nav: true
 footer: true

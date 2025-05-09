@@ -15,48 +15,57 @@ layout: default
   </div>
   <div class="fadeIn mx-4 w-4/5 md:w-2/5 text-center md:text-left mt-6 md:mt-0">
     <div class="prose prose-h1:mb-1">{{ page.main_content | markdownify }}</div>
-    {% if site.contact_channels_section %}
+    <!-- {% if site.contact_channels_section %}
     <p class="mt-4">
       {{ site.data[site.active_lang].strings.home.contact_me | default:
       site.data['en'].strings.home.contact_me}}
     </p>
 
-    {%include contact_channels.html %} {% endif %}
+    {%include contact_channels.html %} {% endif %} -->
   </div>
 </section>
 
-{% if site.posts.size > 0 %}
-<section
-  id="blog"
-  class="container mx-auto flex flex-col items-center justify-center min-h-screen"
->
-  <div class="py-16 w-full">
-    <h2 class="text-3xl font-bold text-center md:text-left">
-      {{ site.data[site.active_lang].strings.home.blog_title | default:
-      site.data['en'].strings.home.blog_title}}
-    </h2>
-    <div
-      class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-x-12 gap-y-16 py-8 md:py-16"
-    >
-      {% for post in site.posts limit:3 %} {% include post_card.html post=post%}
-      {% endfor %}
-    </div>
+<section 
+  id = "skills"
+  class="container mx-auto pb-10 pt-20 lg:pt-[90px] lg:pb-20">
+  <h1 class="text-3xl md:text-5xl font-bold text-center text-gray-800 mb-10">Skills</h1>
 
-    {% assign blog_page = site.pages | where: 'layout', 'blog' | first %} {% if
-    blog_page %}
-    <div class="pt-4 text-center">
-      <a
-        class="font-mulish text-lg hover:text-sky-400 hover:underline font-bold"
-        href="{{ blog_page.url | relative_url }}"
-      >
-        {{ site.data[site.active_lang].strings.home.see_more_posts | default:
-        site.data['en'].strings.home.see_more_posts}}
-      </a>
+  <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-6">
+    <div class="bg-white dark:bg-zinc-800 p-6 rounded-xl shadow-md">
+      <h2 class="text-xl font-semibold mb-2">Java</h2>
+      <p class="text-gray-600 dark:text-gray-300">Proficient in Java, including object-oriented programming and data structures.</p>
     </div>
-    {% endif %}
+    <div class="bg-white dark:bg-zinc-800 p-6 rounded-xl shadow-md">
+      <h2 class="text-xl font-semibold mb-2">JavaScript</h2>
+      <p class="text-gray-600 dark:text-gray-300">Experienced with JavaScript for building dynamic web applications, including React.</p>
+    </div>
+    <div class="bg-white dark:bg-zinc-800 p-6 rounded-xl shadow-md">
+      <h2 class="text-xl font-semibold mb-2">Node.js</h2>
+      <p class="text-gray-600 dark:text-gray-300">Building server-side applications with Node.js and Express.</p>
+    </div>
+    <div class="bg-white dark:bg-zinc-800 p-6 rounded-xl shadow-md">
+      <h2 class="text-xl font-semibold mb-2">React</h2>
+      <p class="text-gray-600 dark:text-gray-300">Using React to build dynamic, component-based user interfaces.</p>
+    </div>
+    <div class="bg-white dark:bg-zinc-800 p-6 rounded-xl shadow-md">
+      <h2 class="text-xl font-semibold mb-2">MySQL</h2>
+      <p class="text-gray-600 dark:text-gray-300">Working knowledge of MySQL for relational database management.</p>
+    </div>
+    <div class="bg-white dark:bg-zinc-800 p-6 rounded-xl shadow-md">
+      <h2 class="text-xl font-semibold mb-2">MS SQL Server</h2>
+      <p class="text-gray-600 dark:text-gray-300">Experienced with Microsoft SQL Server for enterprise-level database management and querying.</p>
+    </div>
+    <div class="bg-white dark:bg-zinc-800 p-6 rounded-xl shadow-md">
+      <h2 class="text-xl font-semibold mb-2">MongoDB</h2>
+      <p class="text-gray-600 dark:text-gray-300">Proficient with MongoDB for NoSQL database management and document-based storage.</p>
+    </div>
+    <div class="bg-white dark:bg-zinc-800 p-6 rounded-xl shadow-md">
+      <h2 class="text-xl font-semibold mb-2">Python</h2>
+      <p class="text-gray-600 dark:text-gray-300">Using Python for scripting, automation, and game development.</p>
+    </div>
   </div>
 </section>
-{% endif %} {% if site.projects.size > 0 %}
+ {% if site.projects.size > 0 %}
 <section
   id="projects"
   class="container mx-auto flex flex-col items-center justify-center min-h-screen"
@@ -102,8 +111,8 @@ replace: "\r", "" | replace: "\t", "" %} {% if trimmed_content != "" %}
   ></a>
   {% if site.posts.size > 0 %}
   <a
-    href="#blog"
-    aria-label="Jump to blog section"
+    href="#skills"
+    aria-label="Jump to skills section"
     class="dot w-3 h-3 block rounded-full border-2 border-gray-800 hover:scale-125"
   ></a>
   {% endif %} {% if site.projects.size > 0 %}
